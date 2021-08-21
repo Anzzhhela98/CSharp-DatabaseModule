@@ -12,7 +12,7 @@ CREATE TABLE [Users] (
 INSERT INTO [Users] ( [Username],[Password], [ProfilePicture],[LastLoginTime],[IsDeleted ])
 VALUES
 	   ('Vanq1','ASDa23a',NULL,'1998/08/05',0),
-	   ('Vanq2','ASD23a',NULL,'1998/08/05',1),
+	   ('Vanq2','SSF23a',NULL,'1998/08/05',1),
 	   ('Vanq3','ASa23a',NULL,'1998/08/05',0),
 	   ('Vanq4','ASDa23a1',NULL,'1998/08/05',1),
 	   ('Vanq5','ASDa23aa',NULL,'1998/08/05',0)
