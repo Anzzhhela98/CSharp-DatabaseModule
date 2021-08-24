@@ -1,11 +1,11 @@
 CREATE TABLE [Manufacturers](
  [ManufacturerID] INT IDENTITY PRIMARY KEY,
- [Name] NVARCHAR(30)NOT NULL,
+ [Name] NVARCHAR(40)NOT NULL,
  [EstablishedOn] DATETIME2 NOT NULL)
 
 CREATE TABLE [Models](
  [ModelID] INT IDENTITY PRIMARY KEY,
- [Name] NVARCHAR(30)NOT NULL,
+ [Name] NVARCHAR(40)NOT NULL,
  [ManufacturerID] INT REFERENCES [Manufacturers]([ManufacturerID]))
 
 
