@@ -14,14 +14,14 @@ CREATE TABLE [StudentsExams](
 INSERT INTO [Students]
 VALUES 
 ('Mila'),
-('Toni'),
+('Tonitoo'),
 ('Ron')
 
 INSERT INTO [Exams]
 VALUES 
 ('SpringMVC'),
-('Neo4j'),
-('Oracle 11g')
+('Neo4jaaa'),
+('Oracle 11gaaaa')
 
 INSERT INTO [StudentsExams]
 VALUES 
