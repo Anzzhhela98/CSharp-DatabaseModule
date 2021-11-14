@@ -28,6 +28,8 @@ namespace ProductShop
             //Console.WriteLine(ImportCategoryProducts(dbContext, inputCategoriesProductsJSON));
             //Console.WriteLine(GetProductsInRange(dbContext));
             //Console.WriteLine(GetSoldProducts(dbContext));
+            //Console.WriteLine(GetCategoriesByProductsCount(dbContext));
+            //Console.WriteLine(GetUsersWithProducts(dbContext));
         }
 
         public static string ImportUsers(ProductShopContext context, string inputJson)
@@ -115,10 +117,51 @@ namespace ProductShop
             return result;
         }
 
-        public static string GetCategoriesByProductsCount(ProductShopContext context) {
+        public static string GetCategoriesByProductsCount(ProductShopContext context)
+        {
 
+            var categories = context.Categories
+                .Select(c=> new
+                {
+                    category= c.Name,
+                    productsCount = c.CategoryProducts.Count(),
+                    averagePrice = $"{c.CategoryProducts.Average(p => p.Product.Price):f2}",
+                    totalRevenue  = $"{c.CategoryProducts.Sum(p => p.Product.Price):f2}"
+                })
+                .OrderByDescending(c => c.productsCount)
+                .ToList();
 
-            return "";
+            var result = JsonConvert.SerializeObject(categories, Formatting.Indented);
+            return result;
+        }
+
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            var users = context
+                 .Users
+                 .Where(u=>u.ProductsSold.Count()>=1)
+                 .Select(u=> new
+                 {
+                     lastName=u.LastName,
+                     age=u.Age,
+                     soldProducts = new
+                     {
+                         count=u.ProductsSold.Count(ps=> ps.Buyer != null),
+                         products =u.ProductsSold
+                         .Where(ps=>ps.Buyer!= null)
+                         .Select(y => new
+                         {
+                             name= y.Name,
+                             price =y.Price,
+                         }).ToList()
+                     },
+                 })
+                .OrderByDescending(p=>p.soldProducts.count)
+                .ToList();
+
+            var result = JsonConvert.SerializeObject(users, Formatting.Indented);
+
+            return result;
         }
     }
 }
