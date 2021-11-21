@@ -13,7 +13,7 @@
 
         public string Name { get; set; }
 
-        public string IsImporter { get; set; }
+        public bool IsImporter { get; set; }
 
         public ICollection<Part> Parts { get; set; }
     }
