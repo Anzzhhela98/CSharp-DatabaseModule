@@ -412,95 +412,6 @@
     ]
   },
   {
-    "Username": "jbehlingp",
-    "Tasks": [
-      {
-        "TaskName": "Nipa Palm",
-        "OpenDate": "10/14/2018",
-        "DueDate": "09/19/2019",
-        "LabelType": "Priority",
-        "ExecutionType": "InProgress"
-      },
-      {
-        "TaskName": "Fir Clubmoss",
-        "OpenDate": "09/15/2018",
-        "DueDate": "07/08/2019",
-        "LabelType": "EntityFramework",
-        "ExecutionType": "Finished"
-      },
-      {
-        "TaskName": "Charleston Mousetail",
-        "OpenDate": "08/10/2018",
-        "DueDate": "07/07/2019",
-        "LabelType": "Hibernate",
-        "ExecutionType": "ProductBacklog"
-      },
-      {
-        "TaskName": "Pacific",
-        "OpenDate": "05/14/2018",
-        "DueDate": "07/05/2019",
-        "LabelType": "Priority",
-        "ExecutionType": "Finished"
-      },
-      {
-        "TaskName": "Bicolored Spleenwort",
-        "OpenDate": "05/24/2018",
-        "DueDate": "07/02/2019",
-        "LabelType": "CSharpAdvanced",
-        "ExecutionType": "InProgress"
-      },
-      {
-        "TaskName": "White",
-        "OpenDate": "10/04/2018",
-        "DueDate": "04/21/2019",
-        "LabelType": "Hibernate",
-        "ExecutionType": "SprintBacklog"
-      },
-      {
-        "TaskName": "Strawberry Clover",
-        "OpenDate": "10/08/2018",
-        "DueDate": "04/04/2019",
-        "LabelType": "CSharpAdvanced",
-        "ExecutionType": "ProductBacklog"
-      },
-      {
-        "TaskName": "Florida Toadwood",
-        "OpenDate": "05/15/2018",
-        "DueDate": "02/02/2019",
-        "LabelType": "Priority",
-        "ExecutionType": "ProductBacklog"
-      },
-      {
-        "TaskName": "Tricharia Lichen",
-        "OpenDate": "08/21/2018",
-        "DueDate": "01/24/2019",
-        "LabelType": "JavaAdvanced",
-        "ExecutionType": "ProductBacklog"
-      },
-      {
-        "TaskName": "Guadalupe",
-        "OpenDate": "09/29/2018",
-        "DueDate": "12/23/2018",
-        "LabelType": "JavaAdvanced",
-        "ExecutionType": "ProductBacklog"
-      },
-      {
-        "TaskName": "Broadleaf",
-        "OpenDate": "03/21/2018",
-        "DueDate": "12/18/2018",
-        "LabelType": "JavaAdvanced",
-        "ExecutionType": "ProductBacklog"
-      },
-      {
-        "TaskName": "Burchell's Clover",
-        "OpenDate": "06/17/2018",
-        "DueDate": "12/03/2018",
-        "LabelType": "Hibernate",
-        "ExecutionType": "InProgress"
-      }
-    ]
-  },
-  {
     "Username": "pclaffeyq",
     "Tasks": [
       {
@@ -592,6 +503,95 @@
         "OpenDate": "10/19/2018",
         "DueDate": "11/17/2018",
         "LabelType": "EntityFramework",
+        "ExecutionType": "InProgress"
+      }
+    ]
+  },
+  {
+    "Username": "jbehlingp",
+    "Tasks": [
+      {
+        "TaskName": "Nipa Palm",
+        "OpenDate": "10/14/2018",
+        "DueDate": "09/19/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "Fir Clubmoss",
+        "OpenDate": "09/15/2018",
+        "DueDate": "07/08/2019",
+        "LabelType": "EntityFramework",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Charleston Mousetail",
+        "OpenDate": "08/10/2018",
+        "DueDate": "07/07/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Pacific",
+        "OpenDate": "05/14/2018",
+        "DueDate": "07/05/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "Finished"
+      },
+      {
+        "TaskName": "Bicolored Spleenwort",
+        "OpenDate": "05/24/2018",
+        "DueDate": "07/02/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "InProgress"
+      },
+      {
+        "TaskName": "White",
+        "OpenDate": "10/04/2018",
+        "DueDate": "04/21/2019",
+        "LabelType": "Hibernate",
+        "ExecutionType": "SprintBacklog"
+      },
+      {
+        "TaskName": "Strawberry Clover",
+        "OpenDate": "10/08/2018",
+        "DueDate": "04/04/2019",
+        "LabelType": "CSharpAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Florida Toadwood",
+        "OpenDate": "05/15/2018",
+        "DueDate": "02/02/2019",
+        "LabelType": "Priority",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Tricharia Lichen",
+        "OpenDate": "08/21/2018",
+        "DueDate": "01/24/2019",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Guadalupe",
+        "OpenDate": "09/29/2018",
+        "DueDate": "12/23/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Broadleaf",
+        "OpenDate": "03/21/2018",
+        "DueDate": "12/18/2018",
+        "LabelType": "JavaAdvanced",
+        "ExecutionType": "ProductBacklog"
+      },
+      {
+        "TaskName": "Burchell's Clover",
+        "OpenDate": "06/17/2018",
+        "DueDate": "12/03/2018",
+        "LabelType": "Hibernate",
         "ExecutionType": "InProgress"
       }
     ]
