@@ -19,11 +19,10 @@ namespace VaporStore.Data.Models
 
         [Required]
         public int UserId { get; set; }
-        [Required]
+
         public User User { get; set; }
 
         public ICollection<Purchase> Purchases { get; set; } = new HashSet<Purchase>();
-
     }
 //•	Id – integer, Primary Key
 //•	Number – text, which consists of 4 pairs of 4 digits, separated by spaces(ex. “1234 5678 9012 3456”) (required)

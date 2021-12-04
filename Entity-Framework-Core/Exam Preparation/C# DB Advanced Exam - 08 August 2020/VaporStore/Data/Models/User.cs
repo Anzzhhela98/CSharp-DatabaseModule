@@ -10,7 +10,6 @@ namespace VaporStore.Data.Models
         public int Id { get; set; }
 
         [Required]
-        [MinLength(3)]
         [MaxLength(20)]
         public string Username { get; set; }
 
@@ -22,11 +21,10 @@ namespace VaporStore.Data.Models
 
         [Required]
         [Range(3, 103)]
-        public string Age { get; set; }
+        public int Age { get; set; }
 
         public ICollection<Card> Cards { get; set; } = new HashSet<Card>();
     }
-
 
     //•	Id – integer, Primary Key
     //•	Username – text with length[3, 20] (required)
