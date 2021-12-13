@@ -8,6 +8,7 @@ namespace TeisterMask.DataProcessor.ExportDto
         [XmlElement("Name")]
         public string Name { get; set; }
 
+        decimal
         [XmlElement("Label")]
         public string Label { get; set; }
     }
